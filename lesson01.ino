@@ -28,8 +28,8 @@ void setup() {
 void forward() {
 
   // set the direction to forward
-  digitalWrite(motor_A, LOW);
-  digitalWrite(motor_B, HIGH);
+  digitalWrite(motor_A, HIGH);
+  digitalWrite(motor_B, LOW);
 
   // set to full speed
   analogWrite(motor_A_speed, 255);
