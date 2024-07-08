@@ -1,9 +1,16 @@
 // Lesson 01 Movement
 // www.smarsfan.com/play/lessons/lesson_01_movement
 
-// set Motor A to Arduino Pins
-int motor_A = 12;
-int motor_B = 13;
+// set Motor A & B to Arduino Pins (The official Arduino Motor shield uses Pins 12 and 13 for Motors A & B)
+/* The popular L298N motor shield has 4 motor connectors and uses pins 
+   pin11 for Motor #1
+   pin03 for Motor #2
+   pin05 for Motor #3
+   pin06 for Motor #4 
+*/
+
+int motor_A = 12; // Other motor shields may use pin 11
+int motor_B = 13; // Other motor shields may use pin 3
 
 // set the Motor Speed using the Arduino Pins
 int motor_A_speed = 10;
