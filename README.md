@@ -4,7 +4,7 @@ SMARS Lessons 01 - Movement
 ---
 
 > **Note** There are at least 2 different combinations of Pins for Motors depending on which Motor Sheild is used.
-> The official Arduino motorshield uses Pins 12 and 13 for Motors A & B respectifively
+> The official Arduino motorshield uses Pins 12 and 13 for Motors A & B respectively
 > L298N motorsheilds may use:
 >
 > - pin11 for Motor #1
